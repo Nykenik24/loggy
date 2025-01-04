@@ -14,5 +14,15 @@ Simple `lua` logging utility.
 - **Error** (`error`): Error.
 - **Fatal** (`fatal`): Fatal error.
 
+# Installation
+1. Clone the library
+```bash
+git clone https://github.com/Nykenik24/loggy loggy
+```
+2. Require the library
+```lua
+local loggy = require("loggy")
+```
+
 ---
 **Loggy was adapted from the `logger` module of my library [Love2d Tools](https://github.com/Nykenik24/love2d-tools)**
