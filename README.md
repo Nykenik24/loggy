@@ -16,7 +16,9 @@ Simple `lua` logging utility.
 
 ## Message chaining
 You can chain messages to section logs or log information in various lines in a more readable way.
-![Chained messages](screenshots/chained.png) ![Chained code](screenshots/chained_code.png)
+
+![Chained messages](screenshots/chained.png) 
+![Chained code](screenshots/chained_code.png)
 
 
 
