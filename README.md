@@ -32,5 +32,21 @@ git clone https://github.com/Nykenik24/loggy loggy
 local loggy = require("loggy")
 ```
 
+# Usage
+When you have loggy installed, you can use it like this:
+```lua
+local loggy = require("loggy")
+
+-- Normal messages          Chained messages
+loggy.message_type(message).message_type(message)
+```
+If you have long chained sections, you can use this syntax:
+```lua
+loggy.message_type(message)
+.message_type(message)
+.message_type(message)
+.message_type(message)
+```
+
 ---
 **Loggy was adapted from the `logger` module of my library [Love2d Tools](https://github.com/Nykenik24/love2d-tools)**
