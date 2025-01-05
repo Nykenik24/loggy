@@ -14,6 +14,12 @@ Simple `lua` logging utility.
 - **Error** (`error`): Error.
 - **Fatal** (`fatal`): Fatal error.
 
+## Message chaining
+You can chain messages to section logs or log information in various lines in a more readable way.
+![Chained messages](screenshots/chained.png) ![Chained code](screenshots/chained_code.png)
+
+
+
 # Installation
 1. Clone the library
 ```bash
