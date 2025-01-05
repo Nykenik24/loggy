@@ -127,6 +127,7 @@ function loggy:test()
 		},
 		d = "d",
 	})
+	self.info("Chained example").info("Hello,").info("World!")
 end
 
 return loggy
