@@ -96,7 +96,7 @@ function loggy.PrintTable(t, depth)
 		end
 	end
 	if depth > 1 then
-		print(Tabs(depth - 1) .. "}")
+		print(Tabs(depth - 1) .. "\27[1;34m } \27[0;0m")
 	else
 		print("\27[1;34m } \27[0;0m")
 	end
